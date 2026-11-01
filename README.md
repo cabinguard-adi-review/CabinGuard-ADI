@@ -12,7 +12,7 @@ Cardiac syncope and convulsive seizure versus normal driving · IEEE VTS TSYP14 
 <table align="center">
 <tr>
 <td align="center"><h3>0 in 22.2 h</h3>false manoeuvres on real driving<br><sub>public datasets, composite episodes</sub></td>
-<td align="center"><h3>79 / 80</h3>syncope episodes detected<br><sub>PhysioNet arrhythmia onsets</sub></td>
+<td align="center"><h3>79 / 80</h3>syncope episodes detected<br><sub>PhysioNet arrhythmia onsets; 1 episode triggered in the 30 s before its onset</sub></td>
 <td align="center"><h3>8 / 10</h3>seizures with clinical motion<br><sub>SeizeIT2 neck accelerometry</sub></td>
 <td align="center"><h3>140 / 140</h3>fault and attack runs passed<br><sub>synthetic sensors, full pipeline</sub></td>
 </tr>
@@ -115,7 +115,7 @@ vehicle simulation. Includes the commands that reproduce every result.
 [`6_Proof_of_Concept_Prototype`](6_Proof_of_Concept_Prototype): the Python
 package that implements everything above, its tests, the 10 Hz real-time loop,
 the CAN gateway, and a live jury dashboard that runs the same code with
-synthetic, webcam or ESP32 inputs. [Demo video](6_Proof_of_Concept_Prototype/media/cabinguard_demo.mp4)
+synthetic, webcam or ESP32 inputs. ▶ [Demo video](6_Proof_of_Concept_Prototype/media/cabinguard_demo.mp4)
 (64 s, scripted syncope run on synthetic signals).
 
 <p align="center">
