@@ -115,7 +115,7 @@ vehicle simulation. Includes the commands that reproduce every result.
 [`6_Proof_of_Concept_Prototype`](6_Proof_of_Concept_Prototype): the Python
 package that implements everything above, its tests, the 10 Hz real-time loop,
 the CAN gateway, and a live jury dashboard that runs the same code with
-synthetic, webcam or ESP32 inputs. ▶ [Demo video](6_Proof_of_Concept_Prototype/media/cabinguard_demo.mp4)
+synthetic, webcam or ESP32 inputs. [Demo video](6_Proof_of_Concept_Prototype/media/cabinguard_demo.mp4)
 (64 s, scripted syncope run on synthetic signals).
 
 <p align="center">
